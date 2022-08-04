@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "useNx": true,
+  "useWorkspaces": true,
+  "version": "independent",
+  "npmClient": "pnpm",
+  "publishConfig": {
+    "registry": "http://apple1024.cn:4873/"
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "tests"
+      ]
+    }
+  }
+}

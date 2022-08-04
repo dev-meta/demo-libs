@@ -1,0 +1,11 @@
+{
+  "name": "@yd/hooks",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "module": "index.ts",
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}
